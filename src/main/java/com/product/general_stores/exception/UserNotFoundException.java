@@ -1,8 +1,7 @@
 package com.product.general_stores.exception;
 
-public class UserAlreadyExistsException extends Exception{
-
-    public UserAlreadyExistsException(String message) {
+public class UserNotFoundException extends Exception{
+    public UserNotFoundException(String message) {
         super(message);
     }
 
